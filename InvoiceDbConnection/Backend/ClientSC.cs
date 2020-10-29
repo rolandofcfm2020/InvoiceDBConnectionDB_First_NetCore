@@ -7,9 +7,8 @@ using System.Text;
 
 namespace InvoiceDbConnection.Backend
 {
-    public class ClientSC
+    public class ClientSC : BaseSC
     {
-        RV_ERPContext DataContext = new RV_ERPContext();
         public void PrintAllClients()
         {
             //Lmabda notation
